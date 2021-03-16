@@ -1,0 +1,21 @@
+desc: 登录页面元素
+parameters:
+  - name: user_name
+    desc: 用户名输入框
+    data: {
+      method: xpath,
+      value: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.EditText"
+    }
+  - name: password
+    desc: 密码输入框
+    data: {
+      method: xpath,
+      value: "//*[@resource-id='android:id/content']//*[@text='Please enter the password']"
+    }
+
+  - name: login_btn
+    desc: 登录按钮
+    data: {
+      method: xpath,
+      value: "//*[@resource-id='android:id/content']//*[@text='Login']"
+    }
